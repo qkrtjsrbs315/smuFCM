@@ -67,13 +67,13 @@ async def on_message(message):
 
     elif message.content.startswith('!give_me_haksik'):
         info = today_message('give_me_haksik')
-        await message.channel.send(info) #여기에 코드 박기
+        await message.channel.send(info) 
     elif message.content.startswith('!give_me_others'):
         info = today_message('give_me_others')
-        await message.channel.send(info) #여기에 코드 박기
+        await message.channel.send(info)
     elif message.content.startswith('!help'):
         info = today_message('help')
-        await message.channel.send(info) #여기에 코드 박기
+        await message.channel.send(info) 
 
 
 client.run(discord_token)
