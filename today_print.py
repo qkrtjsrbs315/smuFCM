@@ -8,7 +8,7 @@ import datetime
 
 url = 'https://www.smu.ac.kr/ko/life/restaurantView.do'
 smu_menu = []
-discord_token = 'MTA4NTQxMzkxNDYyNTQ2MjMyMw.G_bock.sGYOPSbqGEQuPeQjuXsRB82oRGvkOwLIFi7fxQ'
+discord_token = 'ADD Your Key'
 intents = discord.Intents.default()
 intents.message_content = True
 
